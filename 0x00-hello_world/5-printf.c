@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - print the phrase with proper grammar, 
- * but the outcome is a piece of art,
- * Return: 0 if exited properly, non-zero other
+ * main - Entry point 
+ * 
+ * Return: always 0 (Success)
  */
 int main(void)
 {
