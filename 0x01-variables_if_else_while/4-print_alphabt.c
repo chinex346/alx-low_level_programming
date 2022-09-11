@@ -3,7 +3,7 @@
  * main - prints the alphabet in lowercase
  * print all the letters except q and e,
  * followed by a new line.
- * Return : Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -11,7 +11,7 @@ int main(void)
 
 	while (chy <= 'z')
 	{
-		if (chy != 'e' && chy != 'q' )
+		if (chy != 'e' && chy != 'q')
 		{
 			putchar(chy);
 		}
