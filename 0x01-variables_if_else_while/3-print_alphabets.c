@@ -4,18 +4,20 @@
  * followed by a new line.
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char chy;
+	char mine;
 	
-	for (chy = 'a'; chy <= 'z'; chy++)
+	for (mine = 'a'; mine <= 'z'; mine++)
 	{
-		putchar(chy);
-		for (chy = 'A'; chy <= 'Z'; chy++)
+		putchar(mine);
+		for (mine = 'A'; mine <= 'Z'; mine++)
 		{
-			putchar(chy);
+			putchar(mine);
 		}
 		putchar('\n');
 	}
 	return (0);
+	
 }
