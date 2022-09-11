@@ -17,7 +17,7 @@ int main(void)
 			putchar(mine);
 		}
 		putchar('\n');
-	}
-	return (0);
-	
+		return (0);
 }
+	
+
