@@ -16,6 +16,6 @@ int main(void)
 			putchar(chy);
 		}
 		putchar('\n');
+	}
 		return (0);
-
 }
