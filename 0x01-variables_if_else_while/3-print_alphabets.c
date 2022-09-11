@@ -6,16 +6,16 @@
  */
 int main(void)
 {
-	char mine;
-	
-	for (mine = 'a'; mine <= 'z'; mine++)
+	char chy;
+
+	for (chy = 'a'; chy <= 'z'; chy++)
 	{
-		putchar(mine);
-		for (mine = 'A'; mine <= 'Z'; mine++)
-		{
-			putchar(mine);
-		}
+		putchar(chy);
 	}
-		putchar('\n');
-		return (0);
+	for (chy = 'A'; chy <= 'Z'; chy++)
+	{
+		putchar(chy);
+	}
+	putchar('\n');
+	return (0);
 }
